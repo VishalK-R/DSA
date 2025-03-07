@@ -18,6 +18,7 @@ public class ArrayListFeatures {
 		ar.add(9);
 		ar.add(10);
 		ar.add(11);
+		ar.add(11);
 		System.out.println(ar);
 	}
 
