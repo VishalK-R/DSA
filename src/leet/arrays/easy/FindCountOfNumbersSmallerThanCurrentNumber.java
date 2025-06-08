@@ -19,6 +19,7 @@ public class FindCountOfNumbersSmallerThanCurrentNumber {
 	
 	public static void main(String[] args) {
 		int[] nums = {5,0,10,0,10,6};
+		System.out.println(smallerNumbersThanCurrentBruteForceApproach(nums));
 		System.out.println(Arrays.toString(smallerNumbersThanCurrentUsingSortAndMap(nums)));
 		System.out.println(Arrays.toString(smallerNumbersThanCurrentUsingProgressiveSumArray(nums)));
 	}
